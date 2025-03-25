@@ -16,38 +16,39 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
+        <ThemedText type="title">🚨 SEJAM BEM-VINDOS AO FOFOCA NEWS! 🚨</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">🔥 O SITE QUE NÃO DEIXA NADA PASSAR! 🔥</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
+           Aqui no <ThemedText type="defaultSemiBold">Fofoca News</ThemedText> você encontra tudo o que está rolando no Brasil e no mundo!
+          Seja treta de famosos, escândalos políticos ou aquele babado quente do momento, a gente conta TUDO!{' '}
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
               android: 'cmd + m',
-              web: 'F12'
+              web: ''
             })}
           </ThemedText>{' '}
-          to open developer tools.
+          Afinal, quem não ama um bom barraco, né?
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">👀 NOSSO OBJETIVO 👀</ThemedText>
         <ThemedText>
-          Tap the Explore tab to learn more about what's included in this starter app.
+        O nosso compromisso é com a VERDADE (e um pouquinho de entretenimento também, né? 😂).
+        Trazemos as informações mais fresquinhas, de um jeito leve, descontraído e sem filtro!
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">📢 O QUE VOCÊ VAI ENCONTRAR AQUI? 📢</ThemedText>
         <ThemedText>
-          When you're ready, run{' '}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
+        **Curiosidades, rumores e tudo que BOMBA na mídia!** 🎤🕵️ {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
@@ -71,4 +72,4 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
-});
+})
