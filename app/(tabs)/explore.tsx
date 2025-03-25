@@ -20,7 +20,8 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">🔥 EXPLORE AS ULTIMAS POLÊMICAS! 🔥</ThemedText>
+        <ThemedText type="title">🔥 C:\Users\Valdiney Livramento\OneDrive\Desktop\mobile\mobile\.gitignore
+        EXPLORE AS ULTIMAS POLÊMICAS! 🔥</ThemedText>
       </ThemedView>
       <ThemedText></ThemedText>
       <Collapsible title="💔 CASAL DO MOMENTO ANUNCIA SEPARAÇÃO E CHOCA FÃS!

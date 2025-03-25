@@ -45,7 +45,7 @@ export default function HomeScreen() {
         <ThemedText type="subtitle">📢 O QUE VOCÊ VAI ENCONTRAR AQUI? 📢</ThemedText>
         <ThemedText>
         **Curiosidades, rumores e tudo que BOMBA na mídia!** 🎤🕵️ {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText> {' '}
+          <ThemedText type="defaultSemiBold">PUTA MERDA</ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
