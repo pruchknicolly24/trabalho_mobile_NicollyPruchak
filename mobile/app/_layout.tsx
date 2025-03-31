@@ -1,4 +1,3 @@
-// Teste de alteração para forçar commit
 import React, { useState, useEffect } from 'react';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
