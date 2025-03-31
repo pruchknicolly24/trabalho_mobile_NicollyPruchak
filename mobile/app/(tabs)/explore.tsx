@@ -12,7 +12,7 @@ export default function TabTwoScreen() {
       headerBackgroundColor={{ light: '#FF0000', dark: '#FF0000' }} 
       headerImage={
         <Image 
-          source={require('@/assets/images/channels4_profile.png')} 
+          source={require('@/assets/images/channels4_profile.png')}
           style={styles.headerImage}
         />
       }>
